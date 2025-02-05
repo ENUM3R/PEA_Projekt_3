@@ -1,0 +1,33 @@
+# Plik konfiguracyjny programu
+
+#ftv47.atsp (1776), ftv170.atsp (2755) , rgb403.atsp (2465).
+
+# Ścieżka do pliku grafu do wczytania (Wymagana ścieżka bezwzględna)
+
+#graph_file=C:\Users\cypri\OneDrive\Pulpit\I\Aizo_projekt1\PEA3\ftv47.xml
+#graph_file=C:\Users\cypri\OneDrive\Pulpit\I\Aizo_projekt1\PEA3\ftv170.xml
+graph_file=C:\Users\cypri\OneDrive\Pulpit\I\Aizo_projekt1\PEA3\rbg403.xml
+
+# Wybór, czy wczytać graf z pliku (1) czy wygenerować losowo (2)
+load_graph=1
+
+# Rozmiar generowanego grafu (liczba wierzchołków)
+graph_size=8
+
+# Czy wyświetlić graf po jego wczytaniu lub wygenerowaniu: 0 - nie, 1 - tak
+display_graph=0
+
+# Liczba powtórzeń każdego algorytmu
+repeat_count=1
+
+# Algorytm do uruchomienia: 1 - Symulowane wyżarzanie
+algorithm=1
+
+# Wybór sąsiedztwa: 0 - losowy, 1 - 2-opt, 2 - insert, 3 - 3-opt
+neighbour=2
+
+# Ustawienie współczynnika zmiany temperatury dla Symulowanego Wyżarzania
+temp=0.95
+
+#Kryterium stopu jako czas w sekundach
+stop_time=30
